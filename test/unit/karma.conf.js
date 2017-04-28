@@ -13,7 +13,11 @@ module.exports = function (config) {
     // 2. add it to the `browsers` array below.
     browsers: ['PhantomJS'],
     frameworks: ['mocha', 'sinon-chai', 'phantomjs-shim'],
-    reporters: ['spec', 'coverage'],
+    reporters: ['spec', 'coverage','dots', 'junit'],
+    junitReporter: {
+      outputDir: './junit',
+      outputFile: 'test-results.xml',
+    },
     files: ['./index.js'],
     preprocessors: {
       './index.js': ['webpack', 'sourcemap']

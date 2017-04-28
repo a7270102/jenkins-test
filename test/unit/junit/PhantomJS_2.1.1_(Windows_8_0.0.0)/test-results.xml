@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Windows 8 0.0.0)" package="" timestamp="2017-04-26T03:23:10" id="0" hostname="DESKTOP-8RHH4DO" tests="3" errors="0" failures="1" time="0.017">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="Hello.vue should render correct contents" time="0.013" classname="PhantomJS_2_1_1_(Windows_8_0_0_0).Hello.vue"/>
+  <testcase name="Hello.vue should hello inputValue correct" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0_0).Hello.vue"/>
+  <testcase name="Hello.vue should hello dataList correct" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0_0).Hello.vue">
+    <failure type="">Can't find variable: Promise
+request@webpack:///~/._axios@0.16.1@axios/lib/core/Axios.js:46:0 &lt;- index.js:12655:24
+webpack:///~/._axios@0.16.1@axios/lib/core/Axios.js:67:0 &lt;- index.js:12676:24
+wrap@webpack:///~/._axios@0.16.1@axios/lib/helpers/bind.js:9:0 &lt;- index.js:10115:20
+getData@webpack:///Hello.vue:56:0 &lt;- index.js:13686:21
+boundFn@webpack:///~/._vue@2.2.6@vue/dist/vue.esm.js:125:0 &lt;- index.js:557:16
+webpack:///test/unit/specs/Hello.spec.js:29:3 &lt;- index.js:13770:15
+callFnAsync@D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:4470:25
+run@D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:4420:18
+runTest@D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:4936:13
+D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:5042:19
+next@D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:4853:16
+D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:4863:11
+next@D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:4787:16
+D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:4831:9
+timeslice@D:/Vue.js/my-test-app/node_modules/._mocha@3.3.0@mocha/mocha.js:82:27
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

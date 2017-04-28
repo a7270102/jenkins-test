@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <img src="./assets/logo.png">
     <router-view></router-view>
   </div>
@@ -7,7 +7,12 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data() {
+    return {
+      locale: 'ja'
+    }
+  },
 }
 </script>
 

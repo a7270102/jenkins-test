@@ -7,6 +7,7 @@ module.exports = {
     sourceMap: isProduction
       ? config.build.productionSourceMap
       : config.dev.cssSourceMap,
-    extract: isProduction
+    extract: isProduction,
+    i18n: '@kazupon/vue-i18n-loader'
   })
 }
